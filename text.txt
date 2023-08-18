@@ -1,0 +1,17 @@
+<div class="form-group my-2 d-flex justify-content-center align-content-center">
+                    <!-- <label for="exampleInputNumber ">Phone number</label> -->
+                    <input id="phone" type="tel" name="phone" class="form-control phonumber my-2 "
+                        id="exampleInputNumber" aria-describedby="emailHelp" placeholder="Enter Number">
+                </div>
+
+                <!-- <input id="phone" type="tel" name="phone" /> -->
+                <input class="btn login" type="submit" value="Send OTP" />
+                <!-- <button type="submit" class="btn  bgpastelpurple">Send OTP</button> -->
+                <div class="form-group my-2">
+                    <!-- <label for="exampleInputotp">Verify OTP</label> -->
+                    <input type="tel" name="phone" class="form-control my-2 mx-lg-5" id="exampleInputotp"
+                        aria-describedby="emailHelp" placeholder="Enter OTP">
+                </div>
+                <input class="btn login" type="submit" value="Login" />
+
+                <!-- <button type="submit" class="btn bgpastelpurple">Login</button> -->
